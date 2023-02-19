@@ -1,5 +1,5 @@
 # McMMOChatColor
-Spigot plugin the lets players set a their own mcmmo party chat color\
+Spigot plugin the lets players set a custom color for their party chat messages\
 \
 Permissions:\
 mcmmochatcolor.color - Allows players to set a personal party chat color, defaults to true\
