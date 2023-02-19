@@ -1,0 +1,18 @@
+name: McMMOChatColor
+version: '${project.version}'
+main: saber.mcmmochatcolor.McMMOChatColor
+api-version: 1.19
+depend: [ mcMMO ]
+authors: [ Saber ]
+description: Changes mcmmo partychat color to player set color
+website: https://github.com/SaberSupe
+permissions:
+  mcmmochatcolor.color:
+    default: true
+    description: allows players to set a custom party chat color
+  mcmmochatcolor.forcereset:
+      default: op
+      description: allows players to remove other players custom party chat colors
+commands:
+  custompccolor:
+    description: sets the players custom pc color

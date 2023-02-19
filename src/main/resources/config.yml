@@ -1,0 +1,23 @@
+#allow player to use hex colors
+allowhex: true
+
+#Uncomment any formats you want blocked
+formatblacklist:
+  #- "&k" #Obfuscated
+  #- "&l" #Bold
+  #- "&m" #strikethrough
+  #- "&n" #underline
+  #- "&o" #italic
+
+#messages
+msgTooFewArgs: "&eUsage: /custompcsuffix <colorcode>\n/custompccolor reset"
+msgPlayerNotFound: "&cPlayer not found"
+msgNoPerms: "&cYou don't have permission to use this command"
+msgFormatNotAllowed: "&cThat format code is not allowed"
+msgHexNotAllowed: "&cNo hex colors allowed"
+msgInvalidCode: "&cInvalid color code"
+msgNotAPlayer: "You must be a player to set a custom pc color"
+msgResetSuccess: "&aParty Chat color reset successfully"
+msgResetForced: "&cYour Party Chat color has been reset by staff"
+msgForceResetSuccess: "&aPlayer's Party Chat color reset successfully"
+msgSetSuccessfully: "&aParty Chat color set successfully"
