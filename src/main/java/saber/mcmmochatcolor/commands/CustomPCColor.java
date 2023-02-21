@@ -15,14 +15,15 @@ import java.util.List;
 
 public class CustomPCColor implements CommandExecutor {
 
-    private McMMOChatColor plugin;
-    private NamespacedKey ColorKey;
+    private final McMMOChatColor plugin;
+    private final NamespacedKey ColorKey;
 
     public CustomPCColor(McMMOChatColor p1){
         plugin = p1;
         ColorKey = new NamespacedKey(plugin,"PartyChatColor");
 
     }
+    @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
 
         // Check that given command is correct, probably not necessary
